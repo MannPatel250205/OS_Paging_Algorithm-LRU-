@@ -5,3 +5,6 @@ This repository contains an implementation of the Least Recently Used (LRU) algo
 ## Overview
 
 The Least Recently Used (LRU) algorithm is a caching algorithm used in computer science for managing memory efficiently. It works on the principle that the least recently used items are the ones to be removed when the cache is full. This algorithm is widely used in Operating Systems for managing memory pages and improving performance.
+
+You can have look on the website through this link
+https://mannpatel250205.github.io/OS_Paging_Algorithm-LRU-/
