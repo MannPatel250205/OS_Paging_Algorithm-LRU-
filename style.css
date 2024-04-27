@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.head{
+    min-height: 80px;
+    background-color: #4caf50;
+    border-radius: 4px;
+    border: 2px solid #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.output {
+    min-height: 80px;
+    background-color: #4caf50;
+    border-radius: 4px;
+    border: 2px solid #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.inputsection {
+    width: 100%;
+    padding: 20px;
+}
+
+.inputsection label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.inputsection input[type="text"],
+.inputsection select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.inputsection input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.inputsection button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inputsection button:hover {
+    background-color: #45a049;
+}
+
+.solution {
+    width: 100%;
+    padding: 20px;
+}
+
+.part2 table,
+td,
+tr {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+table .c0,
+.r1 {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+@keyframes textInOut {
+    0% {
+        opacity: 0;
+        transform: translateZ(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateZ(20px);
+    }
+}
+
+
+.F {
+    background-color: #ff5c33;
+    animation : textInOut 4s infinite;
+}
+
+
+.opt {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.part2 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.part2 th,
+.part2 td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.part2 th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.part2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.part2 tr:hover {
+    background-color: #ddd;
+}
+
+.part1 ol {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.part1 ol li {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.part1 ol li:hover {
+    background-color: #e0e0e0;
+}
+
+/* For Unordered List */
+.part1 ul {
+    list-style-type: none; /* Remove bullet points */
+    margin-bottom: 20px;
+}
+
+.part1 ul li {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.part1 ul li:hover {
+    background-color: #e0e0e0;
+}
